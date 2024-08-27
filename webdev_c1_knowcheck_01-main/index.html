@@ -10,10 +10,51 @@
     <title>Code Kentucky Student Portfolio</title>
 
     <link href="https://fonts.googleapis.com/css?family=Cabin|Roboto:400,700|Roboto+Condensed:400,700" rel="stylesheet">
-    
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+      <style>
+      .aboutme-photo {
+          opacity: 0.8;
+          border-radius: 121px;
+      }    
+      .aboutme-photo:hover {
+          opacity: 1;
+      }    
+      h1 {
+          color:gold;
+      }
+      h2 {
+          color:gold;
+      }    
+          h3 {
+              color:gainsboro;
+          }
+      a {
+          color:lightblue;
+      }    
+      body {
+        
+        color: cornsilk;
+        background-color: red;
+        animation-name: example;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-timing-function: ease-in;
+          background-image: url('Img/DarkDragonFire.gif');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-position: center; 
+      }
 
+      @keyframes example {
+        0%   {background-color: red;}
+        25%  {background-color: firebrick;}
+        50%  {background-color: orangered;}
+        100% {background-color: crimson;}
+      }
+      </style>
   </head>
 
   <body>
@@ -23,25 +64,25 @@
         <header class="header-content">
 
             <div class="main-logo">
-        
+
                 <span>CK Student Portfolio</span>
-        
+
             </div>
-        
+
             <nav class="main-nav">
-        
+
                 <ul id="navigation">
-                    <li><a href="#aboutme">About Me</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#aboutme" class="btn">About Me</a></li>
+                    <li><a href="#projects" class="btn">Projects</a></li>
+                    <li><a href="#contact" class="btn">Contact</a></li>
                 </ul>
-        
+
             </nav>
 
             <nav class="mobile-nav">
-        
-                <span><a href="#">☰</a></span>
-        
+
+                <span><a href="#" class="btn">☰</a></span>
+
             </nav>
 
 
@@ -49,7 +90,7 @@
 
     </section>
 
-  
+
     <section class="hero-container" id="hero">
 
         <div class="hero-content">
@@ -68,11 +109,11 @@
 
         <div class="aboutme-content">
 
-            <img src="img/DarkDragonFire.gif" alt="Profile Photo" class="aboutme-photo">
+            <img src="Img/LordBane.jpg" width="200px" height="auto" alt="Profile Photo" class="aboutme-photo">
 
             <h2>About Me</h2>
 
-            <p>Will code for pure enjoyment. It may sound silly, but to me, coding is a kind of magic. One studies arcane symbols and phrases, places them ever so carefully in ritualistic patterns, and what once was mere thought is now reality... </p>
+            <p>Will code for pure enjoyment. It may sound strange, but to me, coding is a kind of magic. One studies arcane symbols and phrases, places them ever so carefully in ritualistic patterns, and what once was mere thought is now reality... </p>
 
         </div>
 
@@ -113,14 +154,14 @@
             </article>
 
         </main>
-    
+
     </section>
 
     <section class="footer-container">
 
         <footer class="footer-content">
 
-            <p>&copy; 2023 Code Kentucky. This website maintained by: Bennie Coleman</p> 
+            <p>&copy; 2024 Code Kentucky. This website maintained by: Bennie Coleman</p> 
 
         </footer>
 
